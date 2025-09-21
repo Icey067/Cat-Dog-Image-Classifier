@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+tf_env/
+.virtualenvs/
+
+# TensorFlow/Keras cache and temp files
+tf_*_cache*
+*.lockfile
+
+# OS generated files
+.DS_Store
+Thumbs.db
