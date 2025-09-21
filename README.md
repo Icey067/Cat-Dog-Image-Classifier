@@ -99,7 +99,26 @@ The original dataset can be downloaded from Kaggle. Ensure your images are in `t
 ### 2. Making a Prediction
 To test the pre-trained model on a new image, place your image in the root project folder. Run the Predictor.py script from your terminal, passing the image name as an argument.
 
+---
+
+## Model Performance & Results
+
+The model was trained until the `EarlyStopping` callback concluded the training, as the validation loss was no longer improving.
+
 ### Training Progress
 Here is a snapshot of the model training on the GPU, showing the progression of epochs.
+![Training Progress](images/training_progress.jpg)
 
-![Training Progress](training_progress.jpg)
+### Accuracy and Loss Plots
+The final plots show a well-fitting model where the training and validation metrics track each other closely.
+![Accuracy Plot](images/performance_plots_accuracy.jpg)
+![Loss Plot](images/performance_plots_loss.jpg)
+
+### Prediction on New Images
+The model correctly identifies new images of cats and dogs that it has never seen before.
+
+**Cat Prediction:**
+![Cat Prediction](images/prediction_cat.jpg)
+
+**Dog Prediction:**
+![Dog Prediction](images/prediction_dog.jpg)
