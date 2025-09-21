@@ -1,4 +1,4 @@
-# Cat & Dog Image Classifier 🐱🐶
+# Cat & Dog Image Classifier 
 
 <br />
 <div align="center">
