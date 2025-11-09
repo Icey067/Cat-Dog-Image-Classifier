@@ -1,6 +1,3 @@
-# Cat & Dog Image Classifier 
-
-<br />
 <div align="center">
   <h1 align="center">Cat & Dog Image Classifier</h1>
 
